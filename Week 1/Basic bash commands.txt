@@ -1,0 +1,136 @@
+Options are not important for the lab
+
+mkdir: Creates a new directory.
+
+Syntax: mkdir [options] directory_name
+Options:
+-p: Create parent directories if they do not exist.
+rmdir: Removes an empty directory.
+
+Syntax: rmdir [options] directory_name
+Options:
+None commonly used.
+ls: Lists files and directories in the current directory.
+
+Syntax: ls [options] [directory]
+Options:
+-l: Long format, displaying detailed information about each file.
+-a: Include hidden files and directories (those starting with a dot).
+-h: Human-readable sizes (e.g., 1K, 2M).
+cd: Changes the current directory.
+
+Syntax: cd [directory]
+Options:
+None commonly used.
+touch: Creates an empty file or updates the access and modification times of a file.
+
+Syntax: touch [options] file_name
+Options:
+None commonly used.
+cat: Concatenates and displays the content of files.
+
+Syntax: cat [options] file_name(s)
+Options:
+None commonly used.
+rm: Removes files or directories.
+
+Syntax: rm [options] file_name(s)
+Options:
+-r: Recursively remove directories and their contents.
+-f: Force deletion without confirmation.
+cp: Copies files or directories.
+
+Syntax: cp [options] source_file(s) destination
+Options:
+-r: Recursively copy directories and their contents.
+-i: Prompt before overwriting existing files.
+mv: Moves or renames files or directories.
+
+Syntax: mv [options] source_file(s) destination
+Options:
+None commonly used.
+head: Displays the first part of files.
+
+Syntax: head [options] file_name(s)
+Options:
+-n N: Display the first N lines.
+tail: Displays the last part of files.
+
+Syntax: tail [options] file_name(s)
+Options:
+-n N: Display the last N lines.
+tac: Concatenates and displays the content of files in reverse.
+
+Syntax: tac [options] file_name(s)
+Options:
+None commonly used.
+less: Displays text files interactively, allowing navigation.
+
+Syntax: less [options] file_name(s)
+Options:
+None commonly used.
+more: Displays text files page by page.
+
+Syntax: more [options] file_name(s)
+Options:
+None commonly used.
+su: Switches user or superuser.
+
+Syntax: su [options] [user]
+Options:
+None commonly used.
+cut: Selects sections from each line of files.
+
+Syntax: cut [options] file_name(s)
+Options:
+-d DELIM: Use DELIM as the field delimiter.
+-f FIELDS: Select only these fields.
+sort: Sorts lines of text files.
+
+Syntax: sort [options] file_name(s)
+Options:
+-r: Reverse the result of comparisons.
+-n: Compare according to string numerical value.
+nl: Numbers lines of files.
+
+Syntax: nl [options] file_name(s)
+Options:
+-b: Specify numbering format (e.g., t for no line numbers).
+tr: Translates or deletes characters.
+
+Syntax: tr [options] set1 set2
+Options:
+None commonly used.
+wc: Prints newline, word, and byte counts for each file.
+
+Syntax: wc [options] file_name(s)
+Options:
+-l: Print the number of lines.
+-w: Print the number of words.
+uniq: Removes or reports adjacent duplicate lines.
+
+Syntax: uniq [options] file_name(s)
+Options:
+-c: Prefix lines with the number of occurrences.
+grep: Searches for patterns in files.
+
+Syntax: grep [options] pattern file_name(s)
+Options:
+-i: Ignore case distinctions.
+-v: Invert the sense of matching, to select non-matching lines.
+join: Joins lines of two files on a common field.
+
+Syntax: join [options] file1 file2
+Options:
+-t CHAR: Use CHAR as the input and output field separator.
+cmp: Compares two files byte by byte.
+
+Syntax: cmp [options] file1 file2
+Options:
+None commonly used.
+diff: Compares files line by line.
+
+Syntax: diff [options] file1 file2
+Options:
+-u: Output in unified format.
+Each command may have additional options not listed here. You can refer to their respective manual pages (man <command>) for more detailed information.
